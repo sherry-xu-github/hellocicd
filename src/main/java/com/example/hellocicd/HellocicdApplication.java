@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HellocicdApplication {
 	@RequestMapping("/")
 	String home() {
-		return "Hello World!";
+		return "Hello World! hello cicd";
 	}
 
 	public static void main(String[] args) {
